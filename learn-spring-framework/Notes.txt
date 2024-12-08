@@ -1,0 +1,35 @@
+Profiles
+
+1)Development
+2)QA
+3)Stage
+4)Production
+
+
+
+trace
+debug
+info
+warning
+error
+off
+
+
+//Default
+
+spring.application.name = learn-spring-framework
+logging.level.org.springframework=debug
+spring.profiles.active = prod
+
+currency-service.url = http://default.in28minutes.com
+currency-service.username = defaultusername
+currency-service.key = defaultkey
+
+
+//development environment
+
+logging.level.org.springframework = trace
+
+currency-service.url = http://dev.in28minutes.com
+currency-service.username = devusername
+currency-service.key = devkey
