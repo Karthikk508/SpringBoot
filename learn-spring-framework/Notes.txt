@@ -33,3 +33,9 @@ logging.level.org.springframework = trace
 currency-service.url = http://dev.in28minutes.com
 currency-service.username = devusername
 currency-service.key = devkey
+
+
+Embedded servers
+
+Building jar: C:\Users\kanna\Documents\Programming\In28Minutes_SpringBoot\SecondIteration\learn-spring-framework\target\learn-spring-framework-0.0.1-SNAPSHOT.jar
+
